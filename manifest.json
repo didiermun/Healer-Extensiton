@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Healer Analysis",
+  "description": "This extension will analyze a page using Healer Donations",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
